@@ -27,14 +27,14 @@ public class FlowControl {
 //
 //        // if block
 //        if (i == 4) {
-//            i++;
-//            System.out.println(str);
+//            i++; //i=5
+//            System.out.println(str); //GeeksforGeeks
 //        }
 //
 //        // Executed by default
-//        System.out.println("i = " + i);
+//        System.out.println("i = " + i); //5
 //
-//        /** task 3 */
+        /** task 3 */
 //        int number = 10;
 //
 //        // checks if number is greater than 0
@@ -49,11 +49,9 @@ public class FlowControl {
 //        // checks if number is greater than 0
 //        if (number > 0) {
 //            System.out.println("The number is positive.");
-//        }
-//        else {
+//        } else {
 //            System.out.println("The number is not positive.");
 //        }
-//
 //        System.out.println("This statement is always executed.");
 
     }
